@@ -2469,6 +2469,11 @@
 			border-radius: 4px;
 			display: block;
 		}
+        
+        /*PROFILE IMAGE*/
+        #banner .content .image.profile img{
+            border-radius:0;
+        }
 
 		.image.left {
 			float: left;
