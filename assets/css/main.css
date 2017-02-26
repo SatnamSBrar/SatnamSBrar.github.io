@@ -2516,13 +2516,13 @@
             width:100%;
         }
         .console-image-container-virtualpet {
-            height:350px;
+            height:400px;
             vertical-align:middle;
             background-color:rgb(0,0,0);
             border-radius:10px;
         }
         .console-image-container-bankaccount {
-            height:350px;
+            height:400px;
             vertical-align:middle;
             background-color:rgb(255,255,255);
             border-radius:10px;
