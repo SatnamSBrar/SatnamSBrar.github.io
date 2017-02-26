@@ -44,3 +44,12 @@
         h2.hello {
             letter-spacing: .15em;
         }
+
+/*SECTION 5 ICON LABELS*/
+        .icon.major.sm {
+            cursor:pointer;
+        }
+        .icon > .label {
+            display:block;
+            color:rgb(39,40,51);
+        }
