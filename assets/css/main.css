@@ -2531,6 +2531,15 @@
             height:100%;
             min-height:200px;
         }
+        /*Change height of console app image containers when screen is smaller*/
+        @media (max-width:768px) {
+            .console-image-container-bankaccount {
+                height:250px;
+            }
+            .console-image-container-virtualpet {
+                height:250px;
+            }
+        }
 /* List */
 
 	ol {
