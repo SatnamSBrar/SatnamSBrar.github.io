@@ -2510,11 +2510,27 @@
 			.image.fit img {
 				width: 100%;
 			} 
-        /*Virtual Pet Image*/
+        /*Console App Image*/
         .consoleapp-image {
             border-radius:10px;
+            width:100%;
         }
-
+        .console-image-container-virtualpet {
+            height:350px;
+            vertical-align:middle;
+            background-color:rgb(0,0,0);
+            border-radius:10px;
+        }
+        .console-image-container-bankaccount {
+            height:350px;
+            vertical-align:middle;
+            background-color:rgb(255,255,255);
+            border-radius:10px;
+        }
+        .consoleapp-desc {
+            height:100%;
+            min-height:200px;
+        }
 /* List */
 
 	ol {
