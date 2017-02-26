@@ -1618,11 +1618,6 @@
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 	}
-    /*HELLO HEADER*/
-    h2.hello {
-        letter-spacing: .15em;
-    }
-
 
 	h3 {
 		font-size: 1.35em;
@@ -2475,11 +2470,6 @@
 			border-radius: 4px;
 			display: block;
 		}
-        
-        /*PROFILE IMAGE*/
-        #banner .content .image.profile img{
-            border-radius:0;
-        }
 
 		.image.left {
 			float: left;
@@ -2510,36 +2500,7 @@
 			.image.fit img {
 				width: 100%;
 			} 
-        /*Console App Image*/
-        .consoleapp-image {
-            border-radius:10px;
-            width:100%;
-        }
-        .console-image-container-virtualpet {
-            height:400px;
-            vertical-align:middle;
-            background-color:rgb(0,0,0);
-            border-radius:10px;
-        }
-        .console-image-container-bankaccount {
-            height:400px;
-            vertical-align:middle;
-            background-color:rgb(255,255,255);
-            border-radius:10px;
-        }
-        .consoleapp-desc {
-            height:100%;
-            min-height:200px;
-        }
-        /*Change height of console app image containers when screen is smaller*/
-        @media (max-width:768px) {
-            .console-image-container-bankaccount {
-                height:250px;
-            }
-            .console-image-container-virtualpet {
-                height:250px;
-            }
-        }
+    
 /* List */
 
 	ol {
