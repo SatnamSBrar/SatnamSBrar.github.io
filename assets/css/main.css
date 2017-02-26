@@ -2510,6 +2510,10 @@
 			.image.fit img {
 				width: 100%;
 			} 
+        /*Virtual Pet Image*/
+        .consoleapp-image {
+            border-radius:10px;
+        }
 
 /* List */
 
