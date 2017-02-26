@@ -33,8 +33,11 @@
         #banner .content .image.profile img{
             border-radius:0;
         }
-        .banner .content header {
-            min-width:386.109px; /*Set so js fadin does not cause choppy transition*/
+        #banner .content .image.profile {        /*Start image off screen*/   
+            margin-left:10em;
+        }
+        .banner-container {
+            min-width:386.109px; /*Set so js fading does not cause choppy transition*/
         }
 
 /*HELLO HEADER*/
