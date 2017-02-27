@@ -37,7 +37,12 @@
             margin-left:10em;
         }
         .banner-container {
-            min-width:386.109px; /*Set so js fading does not cause choppy transition*/
+            padding-right:3em;
+        }
+        @media (max-width:768px) {
+            .banner-container {
+                padding-right:0;
+            }
         }
 
 /*HELLO HEADER*/
